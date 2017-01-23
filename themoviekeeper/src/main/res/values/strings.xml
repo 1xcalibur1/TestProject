@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TheMovieKeeper</string>
+    <string name="choose_input_method">Choose Input Method</string>
+    <string name="dialog_internet_button">Internet</string>
+    <string name="dialog_manual_button">Manual</string>
+    <string name="app_label">app label</string>
+    <string name="search_hint">Enter Search Here</string>
+</resources>

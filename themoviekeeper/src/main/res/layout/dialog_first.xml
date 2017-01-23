@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/alertDialog">
+
+    <TextView
+        android:text="First Time Tutorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorPrimary"
+
+        android:id="@+id/tvDialogTitle_first" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Would you like to watch a Youtube tutorial about the awesomeness of TheMovieKeeper?"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/tvDialogContent_first"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:text="Yes"
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/buttonDialogYes_first"
+            android:layout_marginRight="5dp"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="No"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/buttonDialogNo_first"
+
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        >
+
+        <TextView
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Never show this again"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+
+            android:id="@+id/tvDialogNeverShow_first"
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="@android:color/white"
+
+
+            android:buttonTint="@android:color/white"
+
+            android:id="@+id/checkBoxDialog_first"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
